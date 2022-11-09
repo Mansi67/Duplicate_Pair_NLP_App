@@ -11,8 +11,8 @@ from nltk.corpus import stopwords
 
 nltk.download('wordnet')
 nltk.download('omw-1.4')
-tfidf_vectorizer1 = pickle.load(open('C:/Users/mansi/OneDrive/Desktop/Study/Data_Science_Projects/Quora_Question_Pairs/LastP/tfidf_vectorizer1.pkl','rb'))
-tfidf_vectorizer2 = pickle.load(open('C:/Users/mansi/OneDrive/Desktop/Study/Data_Science_Projects/Quora_Question_Pairs/LastP/tfidf_vectorizer2.pkl','rb'))
+tfidf_vectorizer1 = pickle.load(open('tfidf_vectorizer1.pkl','rb'))
+tfidf_vectorizer2 = pickle.load(open('tfidf_vectorizer2.pkl','rb'))
 
 def test_common_words(q1,q2):
     w1 = set(map(lambda word: word.lower().strip(), q1.split(" ")))
