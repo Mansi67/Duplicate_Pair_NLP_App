@@ -8,7 +8,7 @@ def decompress_pickle(file):
     data = pickle.load(data)
     return data
 
-rf_final = decompress_pickle('C:/Users/mansi/OneDrive/Desktop/Study/Data_Science_Projects/Quora_Question_Pairs/LastP/model_compressed.pbz2')
+rf_final = decompress_pickle('model_compressed.pbz2')
 #rf_final = pickle.load(open('C:/Users/mansi/OneDrive/Desktop/Study/Data_Science_Projects/Quora_Question_Pairs/pythonProject1/rf_final.pkl','rb'))
 
 
