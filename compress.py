@@ -1,7 +1,7 @@
 import bz2file as bz2
 import pickle
 
-rf_final = pickle.load(open('C:/Users/mansi/OneDrive/Desktop/Study/Data_Science_Projects/Quora_Question_Pairs/pythonProject1/rf_final.pkl','rb'))
+rf_final = pickle.load(open('rf_final.pkl','rb'))
 
 #compressing pkl file
 def compressed_pickle(title, data):
