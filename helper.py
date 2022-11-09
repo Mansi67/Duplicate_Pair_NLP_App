@@ -11,6 +11,8 @@ from nltk.corpus import stopwords
 
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+nltk.download('punkt')
+nltk.download('stopwords')
 tfidf_vectorizer1 = pickle.load(open('tfidf_vectorizer1.pkl','rb'))
 tfidf_vectorizer2 = pickle.load(open('tfidf_vectorizer2.pkl','rb'))
 
