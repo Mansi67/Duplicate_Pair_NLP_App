@@ -1,6 +1,6 @@
 # Duplicate_Pair_NLP_App
 
-This is a streamlit web app. It can tell whwther two questions are same or different. The dataset has been taken from Kaggle.
+This is a streamlit web app. It can tell whether two questions are same or different. The dataset has been taken from Kaggle.
 
 # Kaggle Dataset : 
 https://www.kaggle.com/competitions/quora-question-pairs/data
